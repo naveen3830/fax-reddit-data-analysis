@@ -21,7 +21,9 @@ const TrafficBarChart: React.FC<TrafficBarChartProps> = ({ data }) => {
                 }}
             >
                 <CartesianGrid strokeDasharray="3 3" stroke="rgba(100, 116, 139, 0.3)" />
-                <XAxis dataKey="category" tick={{ fill: 'rgb(100 116 139)' }} fontSize={12} />
+                <XAxis dataKey="category" tick={{ fill: 'rgb(100 116 139)' }} fontSize={12}
+                  tickFormatter={(value) => `fax from ${value}`}
+                />
                 <YAxis tick={{ fill: 'rgb(100 116 139)'}} fontSize={12} />
                 <Tooltip 
                     cursor={{fill: 'rgba(203, 213, 225, 0.1)'}}
@@ -31,6 +33,7 @@ const TrafficBarChart: React.FC<TrafficBarChartProps> = ({ data }) => {
                         color: '#fff',
                         borderRadius: '0.5rem'
                     }}
+                    labelFormatter={(label) => `fax from ${label}`}
                 />
                 <Legend iconSize={10} wrapperStyle={{fontSize: '14px'}}/>
                 <Bar dataKey="sumOfTraffic" name="Sum of Traffic" fill="#38bdf8" radius={[4, 4, 0, 0]} />

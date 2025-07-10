@@ -71,7 +71,7 @@ const ThreadsPieChart: React.FC<ThreadsPieChartProps> = ({ data }: ThreadsPieCha
                 );
               }
               return null;
-            }}
+             }}
           />
           <Legend iconSize={10} wrapperStyle={{fontSize: '14px'}} layout="vertical" verticalAlign="middle" align="right"/>
         </PieChart>

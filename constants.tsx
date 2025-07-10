@@ -3,28 +3,28 @@ import { RedditData } from './types';
 
 export const redditData: RedditData[] = [
   {
+    category: 'computer',
+    totalThreads: 262,
+    sumOfTraffic: 5101,
+    sumOfKeywords: 2586,
+    avgKeywordPosition: 27.0,
+    threadsInTop10: 117,
+    sampleThreads: [
+      'https://www.reddit.com/r/Adulting/comments/r4ygly/how_do_i_receive_faxes/',
+      'https://www.reddit.com/r/VOIP/comments/1lno42s/can_t30_only_fax_machines_work_at_all_with_voip//'
+    ]
+  },
+  {
     category: 'iPhone',
     totalThreads: 15,
     sumOfTraffic: 1805,
     sumOfKeywords: 676,
     avgKeywordPosition: 15.7,
     threadsInTop10: 7,
-  },
-  {
-    category: 'computer',
-    totalThreads: 293,
-    sumOfTraffic: 5369,
-    sumOfKeywords: 2769,
-    avgKeywordPosition: 27.7,
-    threadsInTop10: 128,
-  },
-  {
-    category: 'printer',
-    totalThreads: 126,
-    sumOfTraffic: 709,
-    sumOfKeywords: 1203,
-    avgKeywordPosition: 21.7,
-    threadsInTop10: 34,
+    sampleThreads: [
+      'https://www.reddit.com/r/apps/comments/1iyf4ge/best_iphone_app_for_faxing/',
+      'https://www.reddit.com/r/ios/comments/1c6efbi/does_anyone_know_a_good_reliable_fax_app/'
+    ]
   },
   {
     category: 'email',
@@ -33,22 +33,46 @@ export const redditData: RedditData[] = [
     sumOfKeywords: 925,
     avgKeywordPosition: 18.7,
     threadsInTop10: 20,
+    sampleThreads: [
+      'https://www.reddit.com/r/Adulting/comments/r4ygly/comment/hmji1iz/',
+      'https://www.reddit.com/r/AskNYC/comments/1jxaa1k/why_do_city_agencies_still_require_fax_why_cant//'
+    ]
+  },
+  {
+    category: 'printer',
+    totalThreads: 126,
+    sumOfTraffic: 709,
+    sumOfKeywords: 1203,
+    avgKeywordPosition: 21.7,
+    threadsInTop10: 34,
+    sampleThreads: [
+      'https://www.reddit.com/r/printers/comments/1htz94s/how_to_fax/',
+      'https://www.reddit.com/r/printers/comments/1fep765/ifax_with_brother_mfc2750dw/'
+    ]
+  },
+  {
+    category: 'HIPAA',
+    totalThreads: 9,
+    sumOfTraffic: 520,
+    sumOfKeywords: 214,
+    avgKeywordPosition: 12.7,
+    threadsInTop10: 5,
+    sampleThreads: [
+      'https://www.reddit.com/r/VOIP/comments/ude38a/any_hipaacompliant_voip_fax_services/',
+      'https://www.reddit.com/r/Psychologists/comments/1i8xgje/fax_recommendations/'
+    ]
   },
   {
     category: 'phone',
-    totalThreads: 29,
-    sumOfTraffic: 505,
-    sumOfKeywords: 588,
-    avgKeywordPosition: 13.6,
-    threadsInTop10: 18,
-  },
-  {
-    category: 'HIPPA',
-    totalThreads: 8,
-    sumOfTraffic: 520,
-    sumOfKeywords: 213,
-    avgKeywordPosition: 12.8,
-    threadsInTop10: 5,
+    totalThreads: 39,
+    sumOfTraffic: 569,
+    sumOfKeywords: 743,
+    avgKeywordPosition: 13.8,
+    threadsInTop10: 23,
+    sampleThreads: [
+      'https://www.reddit.com/r/taxpros/comments/1iq7b4h/printercopyscanfax_that_works_with_google_phone/',
+      'https://www.reddit.com/r/VOIP/comments/1eyt53w/small_business_phone_setup/'
+    ]
   },
 ];
 

@@ -6,4 +6,5 @@ export interface RedditData {
   sumOfKeywords: number;
   avgKeywordPosition: number;
   threadsInTop10: number;
+  sampleThreads?: string[];
 }
