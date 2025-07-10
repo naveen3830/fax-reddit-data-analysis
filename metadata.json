@@ -1,0 +1,6 @@
+{
+  "name": "Reddit Data Analysis Dashboard",
+  "description": "A dashboard to visualize Reddit data analysis by keyword category, featuring key metrics, comparison charts, and a detailed data table.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
